@@ -90,6 +90,8 @@ class users {
             .status(404)
             .json({ message: "Zły login bądź hasło.", auth: false });
         }
+      } else {
+        res.status(404).json({ message: "Zły login bądź hasło.", auth: false });
       }
     } catch (error) {
       console.log(error);

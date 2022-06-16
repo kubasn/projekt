@@ -56,6 +56,7 @@ const LoginPage = (props) => {
       });
       navigate("/");
     } catch (ex) {
+      //console.log(ex.resp)
       setException(ex.response.data.message);
     }
   };
