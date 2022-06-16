@@ -46,6 +46,11 @@ To create this project I've used React.JS, MongoDB, NODE.JS, Express.JS
 ### Admin panel add offer 
 <img src="/images/admin-panel-dodaj-oferte.png" width="80%">
 
+---
+---
+
+### Admin panel edit and delete offer 
+<img src="/images/admin-panel-edytuj-oferte.png" width="80%">
 
 
 
