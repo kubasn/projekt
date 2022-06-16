@@ -1,0 +1,46 @@
+.adminPanel {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(241, 241, 241);
+  padding: 4vh 3vw;
+}
+
+.panel {
+  width: 100%;
+  margin: auto;
+  background-color: white;
+}
+
+#heading {
+  margin: auto;
+  text-align: center;
+  width: 50%;
+  padding: 1% 0;
+  border-bottom: 2px solid rgb(189, 189, 189);
+  color: rgb(89, 89, 89);
+}
+
+.orders {
+  margin: 4% auto;
+  width: 80%;
+}
+
+.rows {
+  margin-bottom: 1%;
+  padding-bottom: 1%;
+  border-bottom: 1px solid rgb(189, 189, 189);
+}
+
+.rows label {
+  width: 33.33%;
+  text-align: center;
+}
+
+.adminPages {
+  width: 100%;
+  padding: 2vh 0;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  gap: 5vw;
+}

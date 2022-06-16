@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300&family=Playfair+Display+SC&display=swap");
+
+.select {
+  width: 100%;
+  background-color: #f4f4f4;
+}
+
+select {
+  text-align: center;
+  text-align-last: center;
+  -moz-text-align-last: center;
+}
+.form {
+  padding: 1.5vh 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.formInput {
+  padding: 2vh 1.5vw;
+  border: 0;
+  text-align: center;
+  background-color: #f4f4f4;
+  font-size: 1.5em;
+  font-family: "Noto Serif", serif;
+  display: box;
+  float: left;
+  border-right: 2px solid rgb(118, 118, 118);
+  -moz-appearance: none;
+  /* for Chrome */
+  -webkit-appearance: none;
+}
+
+.formInput:last-of-type {
+  border-right: 0;
+}
+
+.formInputGarage {
+  padding: 2vh 0.5vw;
+  border: 0;
+  text-align: center;
+  font-size: 1.5em;
+  background-color: #f4f4f4;
+  font-family: "Noto Serif", serif;
+  display: box;
+  float: left;
+  border-right: none;
+  -moz-appearance: none;
+  /* for Chrome */
+  -webkit-appearance: none;
+}
+
+.formInput:hover {
+  background-color: rgb(220, 217, 217);
+}
+
+.formInputGarage:hover {
+  background-color: rgb(220, 217, 217);
+}
+
+.formInput1 {
+  margin-right: 15px;
+  border: 0.5px solid rgb(160, 159, 159);
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: 700;
+  font-family: "Noto Serif", serif;
+  background-color: rgb(240, 240, 240);
+  font-family: "Noto Serif", serif;
+  display: box;
+  float: left;
+  border-radius: 5px;
+  padding: 1vh 1rem;
+}
+
+.formButton {
+  padding: 1vh 1vw;
+  font-size: 1.5em;
+  text-align: center;
+  font-family: "Noto Serif", serif;
+  display: box;
+  float: left;
+  border: 0;
+  border-radius: 10px;
+  background-color: #262626;
+  color: white;
+}
+
+.formButton:hover {
+  background-color: #393939;
+}
+
+select option:hover {
+  background-color: #0e3241;
+}
+
+.home {
+  margin-bottom: 5%;
+}
+
+.controllButtons {
+  margin-top: 3%;
+  display: flex;
+  justify-content: center;
+}
+
+.cntr {
+  font-family: "Noto Serif", serif;
+  letter-spacing: 3px;
+  font-size: 1.3rem;
+  margin-right: 15px;
+  background-color: #b88263;
+  padding: 0.5%;
+  border: 0.5px solid rgb(199, 199, 199);
+  border-radius: 5px;
+  color: white;
+}
+
+.cntr:hover {
+  background-color: #a1775e;
+}
+
+@media screen and (max-width: 910px) {
+  .form {
+    flex-direction: column;
+  }
+  .formInput {
+    border-right: 0;
+    padding-top: 0;
+  }
+}

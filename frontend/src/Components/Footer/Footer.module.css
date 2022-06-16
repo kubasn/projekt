@@ -1,0 +1,67 @@
+.footer {
+  background-color: #262626;
+  height: 45vh;
+  width: 100%;
+  position: relative;
+  color: white;
+  font-family: "carbon";
+  display: flex;
+  justify-content: space-between;
+  font-size: 10rem;
+}
+
+.leftSide {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1%;
+  margin-top: 0.5%;
+  padding-right: 3.5%;
+}
+
+.first {
+  font-size: 6vw;
+  display: inline-block;
+  width: 100%;
+  padding-left: 1%;
+  padding-bottom: 0;
+  border-bottom: 0.5rem solid rgb(207, 207, 207);
+}
+
+.second {
+  font-size: 4rem;
+  display: inline-block;
+  width: 10%;
+  padding-left: 1%;
+}
+
+.centerSide {
+  background-color: rgb(207, 207, 207);
+  height: 90%;
+  width: 0.5rem;
+  margin: auto 0;
+}
+
+.rightSide {
+  display: flex;
+  flex-direction: column;
+  padding: 0 1%;
+}
+
+.rightFirst {
+  font-size: 5rem;
+  width: 100%;
+  margin-top: 2%;
+}
+
+.icon2:hover {
+  color: red;
+}
+.icon1:hover {
+  color: rgb(178, 74, 192);
+}
+.icon1 {
+  font-size: 5vw;
+}
+.icon2 {
+  font-size: 5vw;
+}

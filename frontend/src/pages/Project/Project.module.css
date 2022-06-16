@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap");
+
+.Project {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(241, 241, 241);
+  padding: 2% 0;
+}
+
+.heading1 {
+  text-align: center;
+  margin: auto;
+  margin-bottom: 1%;
+  padding: 1%;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-size: 5rem;
+  border-bottom: 2.5px solid #b6b1b1;
+  width: 70%;
+}
+
+.card {
+  margin: auto;
+  width: 75%;
+  background-color: rgb(255, 255, 255);
+}
+.image {
+  width: 100%;
+  height: 40vw;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftSide {
+  color: #b88263;
+  font-weight: 200;
+  margin: 1rem;
+  font-size: 2.2rem;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 2px solid #b6b1b1;
+  width: 30%;
+}
+.rightSide {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 1%;
+  padding-top: 1%;
+  width: 100%;
+  margin: 0;
+}
+
+.button {
+  height: 6rem;
+  background-color: rgb(38, 38, 38);
+  padding: 0rem 1rem;
+  color: white;
+  font-family: "Noto Serif", serif;
+  font-size: 2rem;
+  border-radius: 5px;
+  border: 0;
+  letter-spacing: 2px;
+}
+.button:hover {
+  background-color: #3e3e3e;
+}
+.bar {
+  width: 100%;
+  height: 20px;
+  margin: 0;
+  background-color: rgb(241, 241, 241);
+}
+
+.details2 {
+  margin: 0.5%;
+  margin-left: 2%;
+  font-size: 1.5vw;
+}
+
+.table {
+  margin: 2% 1%;
+  font-size: 2rem;
+}
+
+.details3 {
+  margin: 2%;
+  font-size: 3vh;
+  line-height: 1.7;
+  font-family: ArquitectaBook, "Helvetica Neue", Helvetica, Arial, Tahoma,
+    Verdana, sans-serif;
+  color: rgb(46, 49, 51);
+}
+
+.details3 h2 {
+  font-weight: bold;
+}
+
+.details4 {
+  margin: 2% 0 0 1%;
+  font-size: 1.5rem;
+}
+.details4 .tags {
+  color: green;
+}
+
+.showBar {
+  position: fixed;
+  top: 0;
+  width: 20%;
+  padding: 1% 0%;
+  text-align: center;
+  margin: 40%;
+  opacity: 1;
+  color: rgb(228, 228, 228);
+  background-color: rgb(129, 129, 129);
+  -webkit-animation: fadeinout 3s linear forwards;
+  animation: fadeinout 3s linear forwards;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+
+@media only screen and (max-width: 500px) {
+  .leftSide {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+@-webkit-keyframes fadeinout {
+  0% {
+    opacity: 0;
+  }
+  16% {
+    opacity: 1;
+  }
+  84% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeinout {
+  0% {
+    opacity: 0;
+  }
+  16% {
+    opacity: 1;
+  }
+  84% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

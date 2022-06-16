@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hurricane&family=Montserrat:wght@500&family=Shizuru&family=Source+Code+Pro:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap");
+
+.RegisterPage {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(241, 241, 241);
+  padding: 5% 0;
+  color: rgb(85, 85, 85);
+}
+
+.RegisterPage label {
+  margin-bottom: 0;
+}
+
+.RegisterPage .register {
+  padding-bottom: 1%;
+  text-align: center;
+  background-color: #ffffff;
+  border: 1px solid rgb(136, 136, 136);
+  border-radius: 3px;
+  box-shadow: 0 0 2em rgb(149, 149, 149);
+}
+
+.registerText {
+  font-family: "Noto Serif", serif;
+  font-size: 2.5vw;
+  padding-bottom: 1%;
+  margin-bottom: 4%;
+  border-bottom: 2px solid rgb(189, 189, 189);
+}
+
+.register .inputs {
+  width: 25%;
+  margin: auto;
+}
+
+#btn1 {
+  background-color: #b88263;
+  color: white;
+  border: 0;
+  font-family: "Noto Serif", serif;
+  letter-spacing: 1px;
+  padding: 1vh 1vw;
+  border-radius: 3px;
+}
+
+#btn1:hover {
+  background-color: #a6785e;
+}
+
+#btn1:disabled {
+  background-color: #ba9f8f;
+}
+
+#registerPage {
+  margin-bottom: 1%;
+}
+
+.inputForm {
+  margin: 0 auto 2vh auto;
+}
+.errorLog {
+  color: rgb(243, 87, 87);
+  padding: 0.1vh 0.5vw;
+  border-radius: 3px;
+  margin-top: 1vh;
+}
+
+.exception {
+  background-color: rgb(227, 86, 86);
+  color: rgb(239, 237, 237);
+  padding: 1%;
+  width: 25%;
+  margin: 1% auto;
+  border-radius: 3px;
+}

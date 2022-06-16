@@ -1,0 +1,24 @@
+.order {
+  width: 50%;
+  margin: 0.5% auto;
+}
+
+.basicDetails {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 0.2%;
+}
+
+.showInfo:hover {
+  color: rgb(173, 173, 173);
+  cursor: pointer;
+}
+
+.items {
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid rgb(201, 201, 201);
+  width: 85%;
+  margin: auto;
+  padding: 1% 0;
+}

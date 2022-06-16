@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap");
+
+.item {
+  color: rgb(85, 85, 85);
+
+  display: flex;
+  width: 100%;
+  margin: 0 auto 0.5% auto;
+}
+
+.details {
+  font-family: "Noto Serif", serif;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 75%;
+  font-size: 1.3vw;
+}
+
+.details p:hover {
+  color: #7d916a;
+}
+
+.img {
+  width: 10%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-radius: 10px;
+}
+
+.details1 {
+  display: flex;
+  width: 15%;
+  align-items: center;
+  justify-content: center;
+  margin-right: 2%;
+  font-size: 3rem;
+}
+
+#trash:hover {
+  cursor: pointer;
+  color: #97725c;
+}
+
+#trash {
+  color: #b88263;
+}
+
+#button1 {
+  width: 33%;
+  background-color: #b88263;
+  color: white;
+  border: 0;
+}
+
+.quantSelect {
+  display: flex;
+  justify-content: space-between;
+  width: 10%;
+  border-radius: 3px;
+}
+#button1:hover {
+  background-color: #97725c;
+}
+
+#counter {
+  width: 34%;
+  text-align: center;
+  border-top: 1px solid rgb(139, 139, 139);
+  border-bottom: 1px solid rgb(139, 139, 139);
+}
+
+#price {
+  margin-bottom: 0;
+  display: flex;
+  font-size: 0.8vw;
+  flex-direction: column;
+  color: grey;
+}
+
+#price:hover {
+  color: rgb(85, 85, 85);
+}
+#price span {
+  font-size: 1.3vw;
+  color: rgb(85, 85, 85);
+}
+#price span:hover {
+  color: #7d916a;
+}
